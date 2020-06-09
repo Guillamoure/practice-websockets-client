@@ -1,0 +1,44 @@
+#messages-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  list-style: none;
+  padding: 2em;
+  border: 2px solid black;
+  border-radius: 1em;
+  max-width: 500px;
+  color: white;
+}
+
+.self {
+  align-self: flex-end;
+  background: pink;
+}
+
+.other {
+  align-self: flex-start;
+  background: blue;
+}
+
+#message-input {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}
+
+#message-input input {
+  width: 80vw;
+  height: 5vh;
+
+}
+
+#message-input button {
+  height: 5vh;
+  width: 10vw;
+  background: lightblue;
+  border-radius: 1em;
+  margin-left: 1vw;
+  font-size: 20px;
+}
